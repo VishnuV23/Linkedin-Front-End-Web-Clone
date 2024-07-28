@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Clone</title>
+    <!-- This is for google fonts icons library -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css"> <!--This is for stylesheet link -->
+</head>
+<body>
+    <!-- Here Is Header Starts -->
+    <div class="header">
+        <div class="header_left">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.WlJi41n1ADVymbG00XIXvgHaHa&pid=Api&P=0&h=180" alt="in logo">
+            <div class="header_search">
+                <i class="material-symbols-outlined">
+                    search
+                </i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="header_right">
+            <div class="headeroption">
+                <i class="material-symbols-outlined headeroption_icon">home</i>
+                <h3>Home</h3>
+            </div>
+            <div class="headeroption">
+                <i class="material-symbols-outlined headeroption_icon">group</i>
+                <h3>My Network</h3>
+            </div>
+            <div class="headeroption">
+                <i class="material-symbols-outlined headeroption_icon">work</i>
+                <h3>Job</h3>
+            </div>
+            <div class="headeroption">
+                <i class="material-symbols-outlined headeroption_icon">chat</i>
+                <h3>Messiaging</h3>
+            </div>
+            <div class="headeroption">
+                <i class="material-symbols-outlined headeroption_icon">notifications</i>
+                <h3>Notification</h3>
+            </div>
+            </div> 
+            <div class="dropdown" id="ptc">
+                <i id="tct" class="material-symbols-outlined">
+                    arrow_drop_down</i>
+                <img src="profilephoto.jpg" alt="">
+                <div class="contenttt">
+                    <a href="#">Setting</a>
+                    <a href="#">Edit</a>
+                    <a href="#">Saved posts</a>
+                </div>
+            </div>
+            <div class="headeroption" id="cts">
+                <h3>Try Premium Free for 1 Month</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Here Is Header Ends -->
+    <!-- Here Is Main Body Starting -->
+    <div class="body_main">
+        <!-- Sidebar Starting -->
+        <div class="sidebar">
+            <div class="sidebar_top">
+                <img src="vitrathinking.jpg" alt="profile picture of mine">
+                <i class="material-symbols-outlined sidebar_topavtar">account_circle</i>
+                <h2>Virat Kohli</h2>
+                <h4>viratkohli18@gmail.com</h4>
+            </div>
+            <div class="sidebar_stats">
+                <h6>Connections</h6>
+                <div class="sidebar_stat">
+                    <p>Grow Your Network</p>
+                    <p class="sidebar_statnumber">1881</p>
+                </div>
+                <div class="sidebar_statt">
+                    <p>Who Viewed Your Profile</p>
+                    <p class="ssidebar_statnumber">18</p>
+                </div>
+                <div class="sidebarr"><p>Access Exclusive Tools And Sights
+                </p>
+                <h6 id="Try">Try Premium Free for 1 Month</h6></div>
+                <div class="myitems">
+                    <i class="material-symbols-outlined">bookmark</i>My Items</div>
+            </div>
+            <div class="sidebar_bottom">
+                <p>Recent</p>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash"></span>
+                    <p>* Cricketer</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash"></span>
+                    <p>* Influencers</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash"></span>
+                    <p>* Actor</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash"></span>
+                    <p>* Businessman</p>
+                </div>
+                <p style="color: blue; font-size: medium;">Group</p>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash"></span>
+                    <p style="display: flex; padding-right: 10px; margin-right: 10px;">
+                        <i class="material-symbols-outlined">group</i> Social Worker</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash"></span>
+                    <p style="display: flex; padding-right: 10px; margin-right: 10px;">
+                        <i class="material-symbols-outlined">group</i> Technical</p>
+                </div>
+                <p style="color: blue; font-size: medium;">Followed Hashtags</p>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash"></span>
+                    <p style="display: flex; padding-right: 10px; margin-right: 10px;">
+                        #  King kohli</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash"></span>
+                    <p style="display: flex; padding-right: 10px; margin-right: 10px; margin-bottom: -10px;">
+                        # Genius</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar Ending -->
+
+        <!-- Feed Starting -->
+        <div class="feed">
+            <div class="feed_inputcontainer">
+                <div class="feed_input">
+                    <!-- <i class="material-symbols-outlined">account_circle</i> we can add logo also except this img tag-->
+                    <img style="width: 60px; height: 50px;" src="profilephoto.jpg" alt="">
+                    <form>
+                        <input type="text" placeholder="Start a Post">
+                    </form>
+                </div>
+                <div class="feed_inputoption " id="kjj">
+                    <div class="inputoption">
+                        <i style= "color: #70b5f9"class="material-symbols-outlined ">imagesmode</i>
+                        <h4>Photo</h4>
+                    </div>
+                    <div class="inputoption">
+                        <span style= "color: rgb(237, 123, 47);"class="material-symbols-outlined">subscriptions</span>
+                        <h4>Video</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i style="color:darkgray" class="material-symbols-outlined">event</i>
+                        <h4>Event</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i style="color: green"class="material-symbols-outlined">rate_review</i>
+                        <h4>Write Article</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Post Starting -->
+            <div class="post">
+                <div class="post_header">
+                    <img style="width: 70px; height: 50px;padding: 0%; margin-right: -15px;"src="myntra.jpeg" alt="">
+                    <div class="post_info">
+                        <h2>Myntra_Fashion</h2>
+                        <p>2.3M Followers</p>
+                        <P>Viral Post</P>
+                    </div>
+                    <div class="logot">
+                        <i class="material-symbols-outlined">more_horiz</i></div>
+                </div>
+                <div class="post_body">
+                    <img src="myntravirat.jpg" alt="my post img">
+                    <p id="vkkk"><i class="material-symbols-outlined">bookmark_heart</i>
+                        <i class="material-symbols-outlined">thumb_up</i>20.Comments</p>
+                </div>
+                <div class="feed_inputoption">
+                    <div class="inputoption" id="vkk">
+                        <i style="color: gray;"class="material-symbols-outlined">recommend</i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">comment</i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">share</i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">send</i>
+                        <h4>Send</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- One Post End -->
+            <!-- Another Post Section -->
+            <div class="post">
+                <div class="post_header">
+                    <img style="width: 70px; height: 50px;padding: 0%; margin-right: -5px;"src="icccri.jpeg" alt="">
+                    <div class="post_info">
+                        <h2>ICC</h2>
+                        <p>356k Followers</p>
+                        <p>Promotion</p>
+                    </div>
+                    <div class="logot">
+                        <i class="material-symbols-outlined">more_horiz</i></div>
+                </div>
+                <div class="post_body">
+                    <p id="textv">Posted this Photo on arivel of King Virat Kohli in New Your for the T20I WC 2024</p>
+                    <img src="styvk.webp" alt="my post img">
+                    <p id="vkkk"><i class="material-symbols-outlined">bookmark_heart</i>
+                        <i class="material-symbols-outlined">thumb_up</i>52.Comments</p>                </div>
+                <div class="feed_inputoption">
+                    <div class="inputoption">
+                        <i style="color: gray;"class="material-symbols-outlined">recommend</i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">comment</i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">share</i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">send</i>
+                        <h4>Send</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Another Post End -->
+            <!-- Another Post Section -->
+            <div class="post">
+                <div class="post_header">
+                    <img style="width: 70px; height: 50px;padding: 0%; margin-right: -5px;"src="travvvvvvvv.avif" alt="">
+                    <div class="post_info">
+                        <h2>Traveling World</h2>
+                        <p>75k Followers</p>
+                        <p>Sportsviral</p>
+                    </div>
+                    <div class="logot">
+                        <i class="material-symbols-outlined">more_horiz</i></div>
+                </div>
+                <div class="post_body">
+                    <!-- <img src="1311173.jpg" alt="my post img"> -->
+                    <!-- Added video rather than image in this post  -->
+                    <p style="text-align: start;" id="textv">Jivdhan is a part of the 'Famous 5' trekking destinations among trekking enthusiasts. Chavaand, Hadsar, Shivneri, and Naneghat are the other destinations in the Famous 5 trek. This is a high difficulty grade trek due to the misleading jungle tracks and the necessity and knowledge of using climbing equipment.... &#128151 &#128509;</p>
+                    <!-- Here adding Emojis with p tag -->
+                    <video width="100%" height="90%" src="SampleVideo_1280x720_1mb.mp4" autoplay controls></video>
+                    <p id="vkkk"><i class="material-symbols-outlined">bookmark_heart</i>
+                        <i class="material-symbols-outlined">thumb_up</i>34.Comments</p>
+                    </div>
+                <div class="feed_inputoption">
+                    <div class="inputoption">
+                        <i style="color: gray;"class="material-symbols-outlined">recommend</i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">comment</i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">share</i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputoption">
+                        <i class="material-symbols-outlined">send</i>
+                        <h4>Send</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Post Ending -->
+        </div>
+        <!-- Feed Ending -->
+        <!-- Right Sidebar Starting -->
+        <div class="widgets">
+            <div class="widgets_header">
+                <h2>Linkedin News </h2>
+                <i class="material-symbols-outlined">info</i>
+            </div>
+            <div class="widgets_article">
+                <div class="widgets_articleleft">
+                    <i class="material-symbols-outlined">fiber_manual_record</i>
+                </div>
+                <div class="widgets_articleright">
+                    <h4>Indian crosses 3,58,974 day </h4>
+                    <p>Top News - Kholi Goes Down the ground Kholi goes Out of the Ground</p>
+                </div>
+            </div>
+            <div class="widgets_article">
+                <div class="widgets_articleleft">
+                    <i class="material-symbols-outlined">fiber_manual_record</i>
+                </div>
+                <div class="widgets_articleright">
+                    <h4>Zomato files for $1.18. IPO </h4>
+                    <p>1d ago - 49050 readers</p>
+                </div>
+            </div>
+                <div class="widgets_article">
+                    <div class="widgets_articleleft">
+                        <i class="material-symbols-outlined">fiber_manual_record</i>
+                    </div>
+                    <div class="widgets_articleright">
+                        <h4>Google sacing $1.B a year</h4>
+                        <p>2d ago - 8793 readers</p>
+                    </div>
+                </div>
+            <div class="widgets_article">
+                <div class="widgets_articleleft">
+                    <i class="material-symbols-outlined">fiber_manual_record</i>
+                </div>
+                <div class="widgets_articleright">
+                    <h4>Google sacing $1.B a year</h4>
+                    <p>2d ago - 8793 readers</p>
+                </div>
+            </div>
+            <!-- Another widget section for todays most viewed couurses -->
+        <div class="widgets_header" id="stc">
+            <h2>Today's most viewed courses </h2>
+            <i class="material-symbols-outlined">info</i>
+        </div>
+        <div class="widgets_article">
+            <div class="widgets_articleleft">
+                <i class="material-symbols-outlined">fiber_manual_record</i>
+            </div>
+            <div class="widgets_articleright">
+                <h4>Indian crosses 3,58,974 day </h4>
+                <p>Top News - 58379 reviews</p>
+            </div>
+        </div>
+        <div class="widgets_article">
+            <div class="widgets_articleleft">
+                <i class="material-symbols-outlined">fiber_manual_record</i>
+            </div>
+            <div class="widgets_articleright">
+                <h4>Google sacing $1.B a year</h4>
+                <p>2d ago - 8793 reviews</p>
+            </div>
+        </div>
+        <!-- Add to your feed Section part -->
+        <div class="widgets_header" id="stc">
+            <h2>Add to your feed </h2>
+            <i class="material-symbols-outlined">info</i>
+        </div>
+        <div class="widgets_article">
+            <div class="widgets_articleleft">
+                <img style="width: 50px;" src="myntra.jpeg" alt="">
+            </div>
+            <div class="widgets_articleright">
+                <h4>Myntra </h4>
+                <p>Company - internet</p>
+            </div>
+        </div>
+        <div class="follow"><p>+ Follow</p></div>
+        <div style="border-top: 1px solid gray;" class="widgets_article">
+            <div class="widgets_articleleft">
+                <img style="width:50px;" src="voda.avif" alt="">
+            </div>
+            <div class="widgets_articleright">
+                <h4>Vodaphone Idea</h4>
+                <p>Telocom Company</p>
+            </div>
+        </div>
+        <div class="follow"><p>+ Follow</p></div>
+        <div style="border-top: 1px solid gray;" class="widgets_article">
+            <div class="widgets_articleleft">
+                <img style="width:50px;" src="tcslogo.jpeg" alt="">
+            </div>
+            <div class="widgets_articleright">
+                <h4>Tata Consultancy Services</h4>
+                <p>IT MNC</p>
+            </div>
+        </div>
+        <div class="follow"><p>+ Follow</p></div>
+                <!-- Right Sidebar Ending -->
+        </div>
+    <!-- Here Is Main Body Is Ending -->
+</body>
+</html>

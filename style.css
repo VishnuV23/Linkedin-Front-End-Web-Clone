@@ -1,0 +1,440 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(234, 225, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_left img{
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+
+
+}
+.dropdown{
+    padding-left: 20px; 
+    border-left: 1px solid gray;
+}
+.dropdown button{
+    background-color: rgb(223, 229, 229);
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .contenttt{
+    display: none;
+    background-color: #e9e5e5;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdown:hover .contenttt{
+    display: block;
+}
+#cts{
+    margin-left: -70px;
+}
+#ptc{
+    margin-left: -100px;
+}
+#tct{
+    margin-right: -10px;
+}
+.dropdown:hover button{
+    background-color: whitesmoke;
+}
+.dropdown a:hover{
+    background-color: whitesmoke;
+}
+.dropdown img{
+    width: 50px;
+}
+/* Header section  */
+.header{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding: 10px;
+    background-color: white;
+}
+.header_left{
+    display: flex;
+}
+.header_right{
+    display: flex;
+
+}
+.header_search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    width: 400px;
+    color: gray;
+    background-color: aliceblue;
+
+}
+.header_search input{
+    outline: none;
+    border: none;
+    background: none;
+}
+.headeroption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+}
+#dropto{
+    display: flex;
+    border-left: 2px solid gray;
+    text-align: left;
+    padding-left: 15px;
+}
+.headeroption:hover{
+    color: black;
+}
+.headeroption h3{
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400px;
+}
+.headeroption_icon{
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+/* Header Section End */
+
+/* Main Body Starting From Here */
+.body_main{
+    display: flex;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* left sidebar pannel starts here*/
+.sidebar{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+.sidebar_top img{
+    margin-bottom: -22px;
+    width: 270px;
+    height:100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.sidebar_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.sidebar_topavtar{
+    font-size: 40px;
+
+}
+.sidebar_stats{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sidebar_stats h6{
+    display: flex;
+    margin-bottom: -10px;
+    color: gray;
+}
+.sidebarr{
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+#Try{
+    font-size: 12px;
+    color: black;
+    margin-bottom: 10px;
+}
+.myitems{
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    padding-top: 8px;
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+    cursor: pointer;
+}
+.sidebar_stat{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar_stat p{
+    color: rgb(8, 7, 7);
+    font-size: 10px;
+    font-weight: 600;
+}
+.sidebar_statt{
+    color: rgb(8, 7, 7);
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.ssidebar_statnumber{
+    font-weight: bold;
+    color: blue !important;
+    font-size: 12px;
+}
+.sidebar_statnumber{
+    font-weight: bold;
+    color: blue !important;
+    margin-bottom: 8px;
+
+}
+.sidebar_top h4{
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.sidebar_top h2{
+    font-size: 18px;
+}
+.sidebar_bottom{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.sidebar_recentitem{
+    
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+.sidebar_recentitem:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+.sidebar_bottom p{
+    font-size: 14px;
+}
+/* left Sidebar pannel end here */
+
+/* Feed Section Start */
+.feed{
+    flex: 0.6;
+    margin: 0 20px;
+}
+.feed_inputcontainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.feed_input i{
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: 900;
+}
+.feed_input{
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    color: rgb(192, 185, 185);
+    padding-left: 15px;
+    margin-bottom: -25px;
+}
+.feed_input form{
+    display: flex;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 35px;
+    margin-left: 10px;
+}
+.feed_input form input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+#kjj{
+    justify-content: space-evenly;
+    border: none;
+}
+#vkkk{
+    border-bottom: 1px solid;
+    margin-bottom: -10px;
+    padding-bottom: 3px;
+}
+.feed_inputoption{
+    display: flex;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+.inputoption{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: -15px;
+}
+.inputoption h4{
+    margin-left: 5px;
+}
+/* Middle pannel Post Section Starting */
+.post{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.logot{
+    margin-left: 460px;
+    cursor: pointer;
+}
+#textv{
+    color: black;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.post_body p{
+    display: flex;
+    margin-left: 1px;
+    color: lightgray;
+    text-align: center;
+}
+.post_body i{
+    padding-right: 10px;
+    padding-right: -10px;
+    margin-right: -10px;
+    color: darkgray;
+}
+.post_body img{
+    height: 100%;
+    width: 100%;
+}
+.post_header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.post_info{
+    margin-left: 10px;
+}
+.post_info p{
+    font-size: 12px;
+    color: gray;
+}
+.post_info h2{
+    font-size: 15px;
+}                             /* middle pannel post  section end here  */
+
+                              /* Last sidebar 3rd pannel starts here  */
+.widgets{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    background-color: white;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+.widgets_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.widgets_header h2{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.widgets_article{
+    display: flex;
+    padding: 3px;
+    cursor: pointer;
+}
+.widgets_article:hover{
+    background-color: whitesmoke;
+}
+.widgets_articleleft{
+    color: blue;
+    margin-right: 5px;
+}
+.widgets_articleleft .material-icon{
+    font-size: 15px;
+}
+.widgets_articleright{
+    flex: 1;
+}
+.widgets_articleright h4{
+    font-size: 14px;
+}
+.widgets_articleright p{
+    font-size: 12px;
+    color: gray;
+    justify-content:left;
+}
+#stc{
+    border-top: 11px solid rgb(239, 234, 234);
+}
+.follow{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 40px;
+    margin-bottom: 10px;
+}
+                             /* last sidebar 3rd apnnel end here */
